@@ -9,17 +9,17 @@ import { PrintGrid } from "@/components/print-grid"
 import { Printer, Tag } from "lucide-react"
 
 const defaultValues: LabelFormData = {
-  cuil: "",
-  producto: "",
-  grado: "",
-  variedad: "",
+  cuil: "27-29929014-5",
+  producto: "MANGO PARA CONSUMO",
+  grado: "A",
+  variedad: "TOMY",
   plantaEmpaque: "ABU PAPI",
-  pesoAprox: "",
-  numEmpaque: "",
-  responsable: "",
-  renspa: "",
+  pesoAprox: "18",
+  numEmpaque: "P-3736-a-F",
+  responsable: "ANA MARIELA LOPEZ",
+  renspa: "08.007.0.02702/00",
   origen: "LAGUNA NAICK NECK-FORMOSA",
-  pais: "PRODUCTO ARGENTINA",
+  pais: "ARGENTINA",
 }
 
 export default function Home() {

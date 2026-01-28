@@ -146,7 +146,7 @@ export function LabelForm({ form }: LabelFormProps) {
           <Label htmlFor="pais">País</Label>
           <Input
             id="pais"
-            placeholder="PRODUCTO ARGENTINA"
+            placeholder="ARGENTINA"
             {...register("pais")}
           />
         </div>

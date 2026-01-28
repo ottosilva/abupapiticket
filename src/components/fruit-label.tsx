@@ -46,7 +46,7 @@ export function FruitLabel({
             <div className="text-[0.9em] font-bold">{cuil || "—"}</div>
           </div>
           <div className="text-center flex-1 px-[0.5em]">
-            <div className="text-[1.3em] font-bold leading-tight">{producto || "PRODUCTO"}</div>
+            <div className="text-[1.05em] font-bold leading-tight">{producto || "PRODUCTO"}</div>
           </div>
           <div className="text-right">
             <div className="text-[0.7em] font-medium">GRADO</div>
@@ -97,7 +97,8 @@ export function FruitLabel({
             <div className="text-[0.75em] font-bold">{origen || "—"}</div>
           </div>
           <div className="text-right">
-            <div className="text-[0.75em] font-bold">{pais || "PRODUCTO ARGENTINA"}</div>
+            <div className="text-[0.6em] font-medium">PRODUCTO</div>
+            <div className="text-[0.75em] font-bold">{pais || "ARGENTINA"}</div>
           </div>
         </div>
       </div>
